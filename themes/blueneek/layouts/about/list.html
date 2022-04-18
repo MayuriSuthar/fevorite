@@ -1,0 +1,26 @@
+{{ define "main" }}
+<!-- about -->
+<div id="about"  class="about">
+  <div class="container">
+     <div class="row d_flex">
+        <div class="col-md-7">
+           <div class="titlepage">
+              <h2>{{ .Params.abouttitle }}</h2>
+              <span class="custom-primary"> {{ .Params.aboutsubtitle }}</span>
+              <p class="subtitle text-justify" style="max-width:unset; color:black">
+                 {{ .Params.aboutcontent | markdownify }}
+               </p>
+               <h3>{{ .Params.readmore }}</h3>
+              <a herf="{{ .Params.readmore | relURL }}" class="read_more">Read More <i class="fa fa-arrow-right" ></i></a>
+           </div>
+        </div>
+        <div class="col-md-5">
+           <div class="about_img">
+              <figure><img src="/images/about_img.png" alt="#"/></figure>
+           </div>
+        </div>
+     </div>
+  </div>
+</div>
+<!-- end about -->
+{{ end }}
