@@ -1,15 +1,16 @@
 ---
-title: "About Us"
-# page header background image
-# page_header_bg: "images/banner.jpg"
-# meta description
-description: "This is meta description."
-aboutbgimage1: "/images/about_img.png"
-abouttitle: "Web Development"
-# aboutsubtitle: "Mobile App Development"
-aboutcontent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo "
+title: About Us
+description: This is meta description.
+aboutbgimage1: /images/about_img.png
+abouttitle: Web Development
+aboutcontent: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo "
 readmore: ""
-# viewproducts: "our-products"
+content: "**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo**"
 draft: false
 ---
-
